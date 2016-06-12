@@ -1,0 +1,59 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.picture-title{
+  font-family: cursive;
+  padding-top: 1%;
+  margin-bottom: 0%;
+  color: #f5f5f5;
+}
+
+.main-header{
+  margin-top: 2%;
+}
+
+.search-box{
+  padding-top: 4%;
+}
+
+.background{
+  background-image: url("../images/nasa_background.jpg");
+}
+
+.title-text{
+  color: #ccc;
+}
+
+.image-block{
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+}
